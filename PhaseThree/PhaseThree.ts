@@ -16,7 +16,7 @@ export class PhaseThreePage {
 
   constructor(public navCtrl: NavController) {
   }
-  openCapThree(){
+  openCap3(){
     this.navCtrl.push(Cap3Page);
 }
 
