@@ -15,24 +15,24 @@ export class PhaseTwoPage {
 
   constructor(public navCtrl: NavController) {
   }
-  openCaptainOne(){
+  openIronMan3(){
     this.navCtrl.push(IronMan3Page);
 }
 
-openIronMan(){
+openThor2(){
     this.navCtrl.push(Thor2Page);
 }
 
-openHulk(){
+openCap2(){
     this.navCtrl.push(Cap2Page);
 }
-openIronManTwo(){
+openGuardians(){
   this.navCtrl.push(GuardiansPage);
 }
-openThor(){
+openAvengers2(){
     this.navCtrl.push(UltronPage);
   }
-openAvengers(){
+openAntMan(){
     this.navCtrl.push(AntManPage);
   }
 
